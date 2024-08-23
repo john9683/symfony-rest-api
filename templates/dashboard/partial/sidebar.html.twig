@@ -1,0 +1,10 @@
+<div class="bg-light border-right" id="sidebar-wrapper">
+    <div class="sidebar-heading">Лаборатория Интернет</div>
+    <div class="list-group list-group-flush">
+
+        <a href="{{ path('app_dashboard_profile') }}" class="list-group-item list-group-item-action
+            {% if setHtmlClassActive is defined and setHtmlClassActive is same as ('profile') %} active {% else %} bg-light {% endif %}
+        ">Профиль</a>
+
+    </div>
+</div>
